@@ -4,9 +4,22 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>CEP</title>
 </head>
 <body>
+    <h1>Formulário do CEP</h1>
+    <form class="formCEP">
+        <input placeholder="Digite o CEP" type="text" data-js="inputCEP">
+        <input class="logradouro" type="text" placeholder="Logradouro"/>
+        <input class="bairro" type="text" placeholder="Bairro"/>
+        <input class="estado" type="text" placeholder="Estado"/>
+        <input class="cidade" type="text" placeholder="Cidade"/>
+        <button class="search-button" type="submit">Search</button>
+    </form>
+    <div class="status">
+        <h4>Status da Requisição</h4>    
+    </div>
+
     <script src="index.js"></script>
 </body>
-</html>
+</html> 
