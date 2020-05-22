@@ -1,12 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>CEP</title>
 </head>
 <body>
-    <script src="index.js"></script>
+  <section class="container">
+    <h1>Digite seu CEP</h1>
+
+    <form class="form">
+      <label for="cep">CEP:</label>
+      <input type="text" id="cep" placeholder="00000-000"/>
+
+      <label for="cidade">Cidade:</label>
+      <input type="text" id="cidade">
+
+      <label for="estado">Estado:</label>
+      <input type="text" id="estado">
+
+      <label for="bairro">Bairro:</label>
+      <input type="text" id="bairro"/>
+
+      <label for="logradouro">Logradouro:</label>
+      <input type="text" id="logradouro"/>
+
+      <div class="button-container">
+        <button type="submit" id="submit-button">Buscar</button>
+      </div>
+    </form>
+
+    <div class="status">
+      <h4>Status Aqui!</h4>
+    </div>
+  </section>
+
+  <script src="index.js"></script>
 </body>
 </html>
